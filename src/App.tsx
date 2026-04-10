@@ -4,8 +4,12 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { Hero } from './components/sections/Hero';
 import { About } from './components/sections/About';
+import { Stats } from './components/sections/Stats';
 import { Services } from './components/sections/Services';
 import { Gallery } from './components/sections/Gallery';
+import { Configurator } from './components/sections/Configurator';
+import { BeforeAfter } from './components/sections/BeforeAfter';
+import { Materials } from './components/sections/Materials';
 import { Process } from './components/sections/Process';
 import { Testimonials } from './components/sections/Testimonials';
 import { QuoteCalculator } from './components/sections/QuoteCalculator';
@@ -30,8 +34,12 @@ function App() {
         <main id="main-content">
           <Hero />
           <About />
+          <Stats />
           <Services />
           <Gallery />
+          <Configurator />
+          <BeforeAfter />
+          <Materials />
           <Process onBookConsultation={() => setBookingOpen(true)} />
           <Testimonials />
           <QuoteCalculator />
