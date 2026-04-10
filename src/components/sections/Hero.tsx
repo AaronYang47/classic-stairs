@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ChevronDown, ArrowRight } from 'lucide-react';
 import { scrollToSection } from '../../lib/scrollToSection';
 
-const HERO_IMAGE = '/hero.png';
+const HERO_IMAGE = '/hero-bg.jpg';
 
 export function Hero() {
   return (
