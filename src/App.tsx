@@ -6,6 +6,7 @@ import { Hero } from './components/sections/Hero';
 import { About } from './components/sections/About';
 import { Services } from './components/sections/Services';
 import { Gallery } from './components/sections/Gallery';
+import { BeforeAfter } from './components/sections/BeforeAfter';
 import { Process } from './components/sections/Process';
 import { Testimonials } from './components/sections/Testimonials';
 import { QuoteCalculator } from './components/sections/QuoteCalculator';
@@ -32,6 +33,7 @@ function App() {
           <About />
           <Services />
           <Gallery />
+          <BeforeAfter />
           <Process onBookConsultation={() => setBookingOpen(true)} />
           <Testimonials />
           <QuoteCalculator />
