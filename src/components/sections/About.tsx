@@ -114,8 +114,8 @@ export function About() {
               transition={{ duration: 0.4 }}
             >
               <motion.img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80"
-                alt="Luxury spiral staircase"
+                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+                alt="Elegant wooden staircase with warm lighting in a luxury interior"
                 className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
                 loading="lazy"
                 initial={{ scale: 1.2 }}
