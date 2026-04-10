@@ -114,8 +114,8 @@ export function About() {
               transition={{ duration: 0.4 }}
             >
               <motion.img
-                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
-                alt="Elegant wooden staircase with warm lighting in a luxury interior"
+                src={`${import.meta.env.BASE_URL}about-stairs.png`}
+                alt="Modern marble staircase with glass railings and warm under-step lighting in a luxury lobby"
                 className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
                 loading="lazy"
                 initial={{ scale: 1.2 }}
